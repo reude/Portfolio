@@ -16,6 +16,10 @@
   text-shadow: 1px 1px 7px black;
 }
 
+
+ /* isso aqui e o sub titulo */
+
+ 
 .sub {
   padding: 0px 0px 30px 0px;
   font-size: 15px;
@@ -24,7 +28,7 @@
 
 .menu {
   margin: auto;
-  text-align: left;
+  text-align: right;
   background-color: rgb(32, 160, 252);
   font-size: 15px;
   color: white;
@@ -44,9 +48,20 @@
   text-shadow: 1px 1px 5px black;
 }
 
-.butao buttom{
+.botao :hover{
+  color: black;
+  transition: 1.5ms;
+  background-color: white !important;
+}
+
+
+.botao{
+  color: white;
   border-radius: 50px;
   font-size: 10px;
+  padding: 5px 20px 5px 20px;
+  background-color: transparent;
+  text-shadow: 1px 1px 5px black;
 }
 
 a:link,
@@ -86,7 +101,7 @@ body{
 .texto span{
   color: rgb(32, 160, 252);
 }
-
+ 
 #arthur{
   font-size: 30px;
 }
